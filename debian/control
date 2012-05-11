@@ -2,7 +2,11 @@ Source: python-lepl
 Section: python
 Priority: optional
 Maintainer: Cajus Pollmeier <cajus@debian.org>
-Build-Depends: debhelper (>= 7.0.50~), python (>= 2.6.6-3~), python-setuptools,
+Build-Depends: debhelper (>= 7.0.50~),
+               python (>= 2.6.6-3~),
+               python-setuptools,
+               python3-all,
+               python3-setuptools
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
 Standards-Version: 3.9.2
