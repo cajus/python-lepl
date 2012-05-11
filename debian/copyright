@@ -40,3 +40,6 @@ provisions above and replace them with the notice and other provisions
 required by the LGPL License.  If you do not delete the provisions
 above, a recipient may use your version of this file under either the
 MPL or the LGPL License.
+
+On Debian systems, the complete text of the GNU Lesser General Public
+License can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
