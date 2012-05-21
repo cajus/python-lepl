@@ -1,0 +1,2 @@
+version=3
+http://code.google.com/p/lepl/downloads/list?can=1 .*/LEPL-(\d[\d.]*)\.tar\.gz
