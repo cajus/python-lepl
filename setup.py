@@ -1,9 +1,12 @@
 from setuptools import setup
 
 setup(name='LEPL',
-      version='5.1.1',
+      version='5.1.3',
       description='A Parser Library for Python 2.6+/3+: Recursive Descent; Full Backtracking',
       long_description='''
+THIS PROJECT IS NO LONGER DEVELOPED.  PLEASE SEE THE `SITE
+<http://www.acooke.org/lepl>` FOR MORE INFORMATION.
+
 LEPL is a recursive descent parser, written in Python, which has a a friendly,
 easy-to-use syntax.  The underlying implementation includes
 several features that make it more powerful than might be expected.

@@ -34,6 +34,7 @@ src/lepl/_example/tutorial_1.py
 src/lepl/_example/tutorial_2.py
 src/lepl/_example/tutorial_3.py
 src/lepl/_example/tutorial_4.py
+src/lepl/_example/xml.py
 src/lepl/_test/__init__.py
 src/lepl/_test/base.py
 src/lepl/_test/bug_stalled_parser.py

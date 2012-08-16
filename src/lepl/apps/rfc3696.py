@@ -62,7 +62,7 @@ def _matcher_to_validator(factory):
     Generate a validator based on the given matcher factory.
     '''
     matcher = factory()
-    matcher.config.compile_to_re()
+    matcher.config.compile_to_re().no_memoize()
     
     @_guarantee_bool
     def validator(value):
@@ -458,7 +458,7 @@ def MailToUrl():
     MAIL_TO = 'mailto:'
     encoded_token = compile_('(%.{0,2})')
     email = _Email()
-    email.config.compile_to_re()
+    email.config.compile_to_re().no_memoize()
     
     @_guarantee_bool
     def validator(url):
