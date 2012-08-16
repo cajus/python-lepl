@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7.0.50~),
                python3-setuptools
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://www.acooke.org/lepl/
 
 Package: python-lepl
